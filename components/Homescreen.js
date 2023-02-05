@@ -6,7 +6,7 @@ export default function HomeScreen({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
         <Image 
-          style={styles.image}
+          //style={styles.image}
           source={require('../images/logo.png')} 
         />
         <Text>Welcome to TDC World</Text>
@@ -14,9 +14,9 @@ export default function HomeScreen({ navigation }) {
   );
 }
 
-const styles = StyleSheet.create({
-  image: {
-    width: 300,
-    height: 250,
-  },
-});
+// const styles = StyleSheet.create({
+//   image: {
+//     width: 300,
+//     height: 250,
+//   },
+// });
